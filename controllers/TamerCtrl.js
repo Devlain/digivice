@@ -1,9 +1,9 @@
 (function() {
 
 	angular.module('Digivice')
-	.controller('MainCtrl', ['$scope', MainCtrl])
+	.controller('TamerCtrl', ['$scope', TamerCtrl])
 
-	function MainCtrl ($scope) {
+	function TamerCtrl ($scope) {
 		
 	}
 	
