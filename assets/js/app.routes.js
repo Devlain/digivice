@@ -3,14 +3,14 @@
 	angular.module('Digivice')
 	.config(function($routeProvider, $locationProvider) {
 		$routeProvider
-			.when('#', {
+			.when('/', {
 				controller: 'MainCtrl',
 				templateUrl: 'views/main.html',
 				data: {
                       private: false
                     }
 			})
-			.when('#/:tamerid', {
+			.when(':tamerid', {
 				controller: 'TamerCtrl',
 				templateUrl: 'views/tamer.html',
 				data: {
