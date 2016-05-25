@@ -5,14 +5,14 @@
 		$routeProvider
 			.when('/#', {
 				controller: 'MainCtrl',
-				templateUrl: '../views/main.html',
+				templateUrl: 'views/main.html',
 				data: {
                       private: false
                     }
 			})
 			.when('/#/:tamerid', {
 				controller: 'TamerCtrl',
-				templateUrl: '../views/tamer.html',
+				templateUrl: 'views/tamer.html',
 				data: {
                       private: false
                     }
