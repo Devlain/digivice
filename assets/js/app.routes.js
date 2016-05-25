@@ -10,7 +10,7 @@
                       private: false
                     }
 			})
-			.when(':tamerid', {
+			.when('/tamerid', {
 				controller: 'TamerCtrl',
 				templateUrl: 'views/tamer.html',
 				data: {
