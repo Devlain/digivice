@@ -1,0 +1,24 @@
+{
+	[{
+		name: 'Pancho',
+		img: '',
+		digimon: {
+
+		}
+	},
+	{
+
+		name: 'Paula',
+		img: '',
+		digimon: {
+
+	},
+	{
+
+		name: 'Yuyu',
+		img: '',
+		digimon: {
+
+	}
+	}]
+}
