@@ -13,7 +13,7 @@
 							{
 								name: 'Pancho',
 								img: '',
-								colorclass: 'warning',
+								colorclass: 'font-bg-pancho',
 								digimon: {
 									name: 'Agumon',
 									specie: 'Agumon',
@@ -24,7 +24,7 @@
 
 								name: 'Paula',
 								img: '',
-								colorclass: 'danger',
+								colorclass: 'font-bg-paula',
 								digimon: {
 									name: 'Agumon',
 									specie: 'Agumon',
@@ -35,7 +35,7 @@
 
 								name: 'Yuyu',
 								img: '',
-								colorclass: 'success',
+								colorclass: 'font-bg-yuyu',
 								digimon: {
 									name: 'Agumon',
 									specie: 'Agumon',

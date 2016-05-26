@@ -1,3 +1,29 @@
 .sum-default-class {
 	display: block;
 }
+
+.tamer-name {
+	display: inline-block;
+	font-size: 18px;
+}
+
+.fieldtag {
+	display:inline-block;
+	border-radius: 10px;
+	padding: 5px 10px;
+}
+
+.font-bg-pancho {
+	color: white;
+	background-color: #FFCD42;
+}
+
+.font-bg-paula {
+	color: white;
+	background-color: #7C40FF;
+}
+
+.font-bg-yuyu {
+	color: white;
+	background-color: #1BE3A7;
+}
