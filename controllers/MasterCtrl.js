@@ -5,9 +5,35 @@
 
 	function MasterCtrl ($scope, TamersFactory) {
 
-		TamersFactory.success(function(data) {
+		/*TamersFactory.success(function(data) {
 			$scope.tamers = data;
-		});
+		});*/
+
+		$scope.tamers = [
+							{
+								name: 'Pancho',
+								img: '',
+								digimon: {
+
+								}
+							},
+							{
+
+								name: 'Paula',
+								img: '',
+								digimon: {
+
+								}
+							},
+							{
+
+								name: 'Yuyu',
+								img: '',
+								digimon: {
+
+								}
+							}
+						];
 
 	};
 	
