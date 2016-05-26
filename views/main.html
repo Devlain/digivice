@@ -1,24 +1,21 @@
-<h1>MainView</h1>
-
-<a class="btn btn-primary clearfix" href="http://devlain.github.io/digivice/#/tamerid">Vista del Tamer</a>
+<h1>Party</h1>
 
 <div ng-repeat="tamer in tamers" class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-	<div class="well">
-		<div class="row text-center">
-			<div class="fieldtag" ng-class="tamer.colorclass">
-				<span class="tamer-name">{{tamer.name}}</span>
+	<a href="http://devlain.github.io/digivice/#/tamerid">
+		<div class="well">
+			<div class="text-center">
+				<div class="fieldtag" ng-class="tamer.colorclass">
+					<span class="tamer-name">{{tamer.name}}</span>
+				</div>
 			</div>
-		</div>
-		<img class="img-circle img-responsive" ng-src="{{tamer.digimon.img}}">
-		<div class="row">
-			<ul class="list-group text-center">
+			<p></p>
+			<img class="img-circle img-responsive" ng-src="{{tamer.digimon.img}}">
+			<p></p>
+			<ul class="data-group list-group text-center">
 				<li class="list-group-item" ng-class="tamer.colorclass">{{tamer.digimon.name}}</li>
 				<li class="list-group-item">{{tamer.digimon.specie}}</li>
 			</ul>
-
-			
-			
 		</div>
-	</div>
+	</a>
 
 </div>
