@@ -1,7 +1,7 @@
 (function() {
 
 	angular.module('Digivice')
-	.factory('TamersFactory', function('$http') {
+	.factory('TamersFactory', ['$http', function($http) {
 		return
 			$http.get('assets/js/tamers.json')
 			.success(function(data) {
@@ -10,7 +10,6 @@
 			.error(function(err) {
 				return err;
 			});
-	});
-	
+	}]);
 })();
 
