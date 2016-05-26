@@ -17,6 +17,9 @@
                       private: false
                     }
 			})
+			.otherwise({
+				redirecTo: '/'
+			})
 
 		$locationProvider.html5Mode({
           enabled: true,
