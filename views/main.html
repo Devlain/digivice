@@ -2,8 +2,11 @@
 
 <a class="btn btn-primary" href="http://devlain.github.io/digivice/#/tamerid">Vista del Tamer</a>
 
-<div ng-repeat="tamer in tamers">
-	<h3>{{tamer.name}}</h3>
-	<h4>{{tamer.digimon.name}}</h4>
-	<img class="img-circle" ng-src="{{tamer.digimon.img}}">
+<div ng-repeat="tamer in tamers" class="col-xs-12 col-sm-4 col-md-3 col-lg-2">
+	<div class="well">
+		<h3>{{tamer.name}}</h3>
+		<h4>{{tamer.digimon.name}}</h4>
+		<img class="img-circle img-responsive" ng-src="{{tamer.digimon.img}}">
+	</div>
+
 </div>
