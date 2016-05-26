@@ -1,18 +1,21 @@
 <h1>Party</h1>
 
 <div ng-repeat="tamer in tamers" class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-	<div class="well" href="http://devlain.github.io/digivice/#/tamerid">
-		<div class="text-center">
-			<div class="fieldtag" ng-class="tamer.colorclass">
-				<span class="tamer-name">{{tamer.name}}</span>
+	<a href="http://devlain.github.io/digivice/#/tamerid">
+		<div class="well">
+			<div class="text-center">
+				<div class="fieldtag" ng-class="tamer.colorclass">
+					<span class="tamer-name">{{tamer.name}}</span>
+				</div>
 			</div>
+			<p></p>
+			<img class="img-circle img-responsive" ng-src="{{tamer.digimon.img}}">
+			<p></p>
+			<ul class="data-group list-group text-center">
+				<li class="list-group-item" ng-class="tamer.colorclass">{{tamer.digimon.name}}</li>
+				<li class="list-group-item">{{tamer.digimon.specie}}</li>
+			</ul>
 		</div>
-		<p></p>
-		<img class="img-circle img-responsive" ng-src="{{tamer.digimon.img}}">
-		<p></p>
-		<ul class="data-group list-group text-center">
-			<li class="list-group-item" ng-class="tamer.colorclass">{{tamer.digimon.name}}</li>
-			<li class="list-group-item">{{tamer.digimon.specie}}</li>
-		</ul>
-	</div>
+	</a>
+
 </div>
