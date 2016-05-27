@@ -30,6 +30,19 @@
 
 .data-group {
 	margin-bottom: 0 !important;
+	display: inline-block;
+	min-width: 200px;
+	max-width: 400px;
+}
+
+.digimon-portait {
+	min-width: 200px;
+	max-width: 400px;
+}
+
+.fixed-well {
+	width: auto;
+	max-width: 600px;
 }
 
 a {

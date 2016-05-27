@@ -1,13 +1,13 @@
 (function() {
 
 	angular.module('Digivice')
-	.controller('TamerCtrl', ['$scope', '$routeParams', TamerCtrl])
+	.controller('TamerCtrl', ['$scope', '$routeParams', '$location', 'TamersFactory', TamerCtrl])
 
-	function TamerCtrl ($scope, $routeParams) {
+	function TamerCtrl ($scope, $routeParams, $location, TamersFactory) {
 
 		$scope.debug = 'debug';
 
-		$scope.tamer = $routeParams.tamer;
+		$scope.tamer = TamersFactory[$routeParams.tamer];
 		
 	}
 	
