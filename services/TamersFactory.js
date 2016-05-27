@@ -10,7 +10,9 @@
 							digimon: {
 								name: 'Patamon',
 								specie: 'Patamon',
-								img: "assets/img/patamon.jpg"
+								img: "assets/img/patamon.jpg",
+								attr: 'data',
+								attrIcon: 'fa-floppy-o'
 							}
 						},
 						{
@@ -21,7 +23,9 @@
 							digimon: {
 								name: 'Labramon',
 								specie: 'Labramon',
-								img: "assets/img/labramon.png"
+								img: "assets/img/labramon.png",
+								attr: 'vaccine',
+								attrIcon: 'fa-shield'
 							}
 						},
 						{
@@ -32,7 +36,9 @@
 							digimon: {
 								name: 'Hagurumon',
 								specie: 'Hagurumon',
-								img: "assets/img/hagurumon.png"
+								img: "assets/img/hagurumon.png",
+								attr: 'virus',
+								attrIcon: 'fa-bug'
 							}
 						}
 					];
