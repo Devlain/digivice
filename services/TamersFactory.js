@@ -8,9 +8,9 @@
 							img: '',
 							colorclass: 'font-bg-pancho',
 							digimon: {
-								name: 'Agumon',
-								specie: 'Agumon',
-								img: "http://g03.a.alicdn.com/kf/HTB1.7FXKFXXXXbdXFXXq6xXFXXXw/Digimon-Adventure-YAGAMI-TAICHI-font-b-Agumon-b-font-100-Handmade-Plush-Toy-Cosplay-Props.jpg"
+								name: 'Patamon',
+								specie: 'Patamon',
+								img: "assets/img/patamon.jpg"
 							}
 						},
 						{
@@ -19,9 +19,9 @@
 							img: '',
 							colorclass: 'font-bg-paula',
 							digimon: {
-								name: 'Agumon',
-								specie: 'Agumon',
-								img: "http://g03.a.alicdn.com/kf/HTB1.7FXKFXXXXbdXFXXq6xXFXXXw/Digimon-Adventure-YAGAMI-TAICHI-font-b-Agumon-b-font-100-Handmade-Plush-Toy-Cosplay-Props.jpg"
+								name: 'Labramon',
+								specie: 'Labramon',
+								img: "assets/img/labramon.png"
 							}
 						},
 						{
@@ -30,9 +30,9 @@
 							img: '',
 							colorclass: 'font-bg-yuyu',
 							digimon: {
-								name: 'Agumon',
-								specie: 'Agumon',
-								img: "http://g03.a.alicdn.com/kf/HTB1.7FXKFXXXXbdXFXXq6xXFXXXw/Digimon-Adventure-YAGAMI-TAICHI-font-b-Agumon-b-font-100-Handmade-Plush-Toy-Cosplay-Props.jpg"
+								name: 'Hagurumon',
+								specie: 'Hagurumon',
+								img: "assets/img/hagurumon.png"
 							}
 						}
 					];
