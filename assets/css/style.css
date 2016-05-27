@@ -8,8 +8,10 @@
 }
 
 .attr-tag {
-	position: absolute;
-	right: 32px;
+	display:block;
+	position: relative;
+	top: -36px;
+	margin-bottom: -36px;
 }
 
 .fieldtag {
