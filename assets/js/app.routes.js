@@ -10,6 +10,13 @@
                       private: false
                     }
 			})
+			.when('/eclair', {
+				templateUrl: 'views/eclair.html',
+				controller: 'EclairCtrl',
+				data: {
+                      private: false
+                    }
+			})
 			.when('/:tamer', {
 				templateUrl: 'views/tamer.html',
 				controller: 'TamerCtrl',
