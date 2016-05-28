@@ -20,6 +20,13 @@
 	padding: 5px 10px;
 }
 
+.level-tag {
+	border-radius: 4px 4px 0 0;
+	width: 80%;
+	display: block;
+	margin: 0 auto;
+}
+
 .font-bg-pancho {
 	color: white;
 	background-color: #9F0DD9;
