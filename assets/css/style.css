@@ -75,7 +75,7 @@ a:hover {
 }
 
 .animate-show {
-  height: 120px;
+  height: 100px;
   opacity: 1;
 }
 
@@ -86,4 +86,8 @@ a:hover {
 .animate-show.ng-hide {
   height: 0;
   opacity: 0;
+}
+
+td {
+	background-color: #fff;
 }

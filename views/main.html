@@ -11,7 +11,23 @@
 					<span ng-click="changeTruth()" class="tamer-name">{{tamer.name}}</span>
 				</div>
 			<!--</a>-->
-			<div class="check-element animate-show" ng-show="isTrue"><span ng-repeat="skill in tamer.stats.nature">{{skill}}</span></div>
+			<div class="check-element animate-show" ng-show="isTrue">
+				<div>
+					<h5 class="text-centered">Naturalezas</h5>
+						<table class="table table-bordered text-center">
+							<tbody>
+								<tr>
+									<td>Expresiva</td>
+									<td>Empática</td>
+								</tr>
+								<tr>
+									<td>Lógica</td>
+									<td>Motriz</td>
+								</tr>
+							</tbody>
+						</table>
+				</div>
+			</div>
 		</div>
 		<p></p>
 		<img class="img-circle img-responsive digimon-portait center-block" ng-src="{{tamer.digimon.img}}">
