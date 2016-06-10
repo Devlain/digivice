@@ -8,10 +8,10 @@
 		<div class="text-center">
 			<!--<a ng-href="http://devlain.github.io/digivice/#/{{$index}}">-->
 				<div class="fieldtag" ng-class="tamer.colorclass" ng-click="">
-					<span ng-click="changeTruth()" class="tamer-name">{{tamer.name}}</span>
+					<span ng-click="changeTruth($index)" class="tamer-name">{{tamer.name}}</span>
 				</div>
 			<!--</a>-->
-			<div class="check-element animate-show" ng-show="isTrue">
+			<div class="check-element animate-show" ng-show="tamer.statsToggle">
 				<div>
 					<h4 class="text-centered">Naturalezas</h4>
 					<table class="table table-bordered text-center">

@@ -54,6 +54,7 @@
 							name: 'Paula',
 							img: '',
 							colorclass: 'font-bg-paula',
+							statsToggle: false,
 							stats: {
 								nature: {
 									expressive: '',
@@ -100,6 +101,7 @@
 							name: 'Yuyu',
 							img: '',
 							colorclass: 'font-bg-yuyu',
+							statsToggle: false,
 							stats: {
 								nature: {
 									expressive: '',

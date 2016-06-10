@@ -1,14 +1,14 @@
 (function() {
 
 	angular.module('Digivice')
-	.controller('MainCtrl', ['$scope', MainCtrl])
+	.controller('MainCtrl', ['$scope', 'TamersFactory', MainCtrl])
 
-	function MainCtrl ($scope) {
+	function MainCtrl ($scope, TamersFactory) {
 		
 		$scope.isTrue = false;
 
-		$scope.changeTruth = function() {
-			$scope.isTrue = !$scope.isTrue;
+		$scope.changeTruth = function(ordinal) {
+			TamersFactory[ordinal].statsToggle = !TamersFactory[ordinal].statsToggle;
 		}
 
 	}

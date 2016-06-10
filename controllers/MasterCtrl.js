@@ -11,6 +11,10 @@
 
 		$scope.tamers = TamersFactory;
 
+		$scope.changeTruth = function() {
+			TamersFactory[0].statsToggler();
+		}
+
 	};
 	
 })();
