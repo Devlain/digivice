@@ -5,7 +5,7 @@
 
 	function MainCtrl ($scope) {
 		
-		$scope.isTrue = true;
+		$scope.isTrue = false;
 
 		$scope.changeTruth = function() {
 			$scope.isTrue = !$scope.isTrue;
