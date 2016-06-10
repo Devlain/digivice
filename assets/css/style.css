@@ -79,8 +79,13 @@ a:hover {
   opacity: 1;
 }
 
-.animate-show.ng-hide-add, .animate-show.ng-hide-remove {
-	transition: all linear 0.5s;
+.animate-show.ng-hide-add {
+	transition: opacity ease 0.3s, height 0.4s ease 0.3s;
+}
+
+.animate-show.ng-hide-remove {
+	transition: height ease 0.5s, opacity 0.4s ease 0.3s;
+	
 }
 
 .animate-show.ng-hide {
