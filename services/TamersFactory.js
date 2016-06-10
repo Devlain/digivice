@@ -7,6 +7,40 @@
 							name: 'Pancho',
 							img: '',
 							colorclass: 'font-bg-pancho',
+							statsToggle: false,
+							stats: {
+								nature: {
+									expressive: 0,
+									empathic: 1,
+									logic: 1,
+									kinetic: 2,
+								},
+								skills: {
+									expressive: {
+										performance: -1,
+										speak: -1,
+										deceive: -1
+									},
+									empathic: {
+										negotiation: -1,
+										senseMotive: -1,
+										resilence: -1
+									},
+									logic: {
+										informatic: -1,
+										enginering: -1,
+										idea: -1
+									},
+									kinetic: {
+										atletism: -1,
+										combat: -1,
+										stealth: -1
+									},
+									general: {
+										survival: -1
+									}
+								}
+							},
 							digimon: {
 								name: 'Patamon',
 								specie: 'Patamon',

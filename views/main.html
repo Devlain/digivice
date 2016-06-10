@@ -8,13 +8,10 @@
 		<div class="text-center">
 			<!--<a ng-href="http://devlain.github.io/digivice/#/{{$index}}">-->
 				<div class="fieldtag" ng-class="tamer.colorclass" ng-click="">
-					<button ng-click="changeTruth()">sum change</button>
-					<span class="tamer-name">{{tamer.name}}</span>
+					<span ng-click="changeTruth()" class="tamer-name">{{tamer.name}}</span>
 				</div>
 			<!--</a>-->
-			<div ng-class="check-element animate-show" ng-show="isTrue">{{isTrue}}</div>
-			<div ng-class="check-element animate-show" ng-hide="isTrue">{{isTrue}}</div>
-			<div ng-class="check-element animate-show" ng-show="isTrue">{{isTrue}}</div>
+			<div class="check-element animate-show" ng-show="isTrue"><span ng-repeat="skill in tamer.stats.nature">{{skill}}</span></div>
 		</div>
 		<p></p>
 		<img class="img-circle img-responsive digimon-portait center-block" ng-src="{{tamer.digimon.img}}">

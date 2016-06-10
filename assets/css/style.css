@@ -18,6 +18,7 @@
 	display:inline-block;
 	border-radius: 4px;
 	padding: 5px 10px;
+	cursor: pointer;
 }
 
 .level-tag {
@@ -74,25 +75,15 @@ a:hover {
 }
 
 .animate-show {
-  line-height: 20px;
+  height: 120px;
   opacity: 1;
-  padding: 10px;
-  border: 1px solid black;
-  background: white;
 }
 
 .animate-show.ng-hide-add, .animate-show.ng-hide-remove {
-  transition: all ease 5s;
+	transition: all linear 0.5s;
 }
 
 .animate-show.ng-hide {
-  line-height: 0;
+  height: 0;
   opacity: 0;
-  padding: 0 10px;
-}
-
-.check-element {
-  padding: 10px;
-  border: 1px solid black;
-  background: white;
 }
