@@ -10,10 +10,10 @@
 							statsToggle: false,
 							stats: {
 								nature: {
-									expressive: 0,
-									empathic: 1,
-									logic: 1,
-									kinetic: 2,
+									expressive: 'bad',
+									empathic: '',
+									logic: '',
+									kinetic: 'good',
 								},
 								skills: {
 									expressive: {
@@ -54,6 +54,39 @@
 							name: 'Paula',
 							img: '',
 							colorclass: 'font-bg-paula',
+							stats: {
+								nature: {
+									expressive: '',
+									empathic: 'good',
+									logic: 'bad',
+									kinetic: '',
+								},
+								skills: {
+									expressive: {
+										performance: -1,
+										speak: -1,
+										deceive: -1
+									},
+									empathic: {
+										negotiation: -1,
+										senseMotive: -1,
+										resilence: -1
+									},
+									logic: {
+										informatic: -1,
+										enginering: -1,
+										idea: -1
+									},
+									kinetic: {
+										atletism: -1,
+										combat: -1,
+										stealth: -1
+									},
+									general: {
+										survival: -1
+									}
+								}
+							},
 							digimon: {
 								name: 'Labramon',
 								specie: 'Labramon',
@@ -67,6 +100,39 @@
 							name: 'Yuyu',
 							img: '',
 							colorclass: 'font-bg-yuyu',
+							stats: {
+								nature: {
+									expressive: '',
+									empathic: 'bad',
+									logic: '',
+									kinetic: 'good',
+								},
+								skills: {
+									expressive: {
+										performance: -1,
+										speak: -1,
+										deceive: -1
+									},
+									empathic: {
+										negotiation: -1,
+										senseMotive: -1,
+										resilence: -1
+									},
+									logic: {
+										informatic: -1,
+										enginering: -1,
+										idea: -1
+									},
+									kinetic: {
+										atletism: -1,
+										combat: -1,
+										stealth: -1
+									},
+									general: {
+										survival: -1
+									}
+								}
+							},
 							digimon: {
 								name: 'Hagurumon',
 								specie: 'Hagurumon',

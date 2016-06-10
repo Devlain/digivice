@@ -13,19 +13,19 @@
 			<!--</a>-->
 			<div class="check-element animate-show" ng-show="isTrue">
 				<div>
-					<h5 class="text-centered">Naturalezas</h5>
-						<table class="table table-bordered text-center">
-							<tbody>
-								<tr>
-									<td>Expresiva</td>
-									<td>Empática</td>
-								</tr>
-								<tr>
-									<td>Lógica</td>
-									<td>Motriz</td>
-								</tr>
-							</tbody>
-						</table>
+					<h4 class="text-centered">Naturalezas</h4>
+					<table class="table table-bordered text-center">
+						<tbody>
+							<tr>
+								<td ng-class="tamer.stats.nature.expressive">Expresiva</td>
+								<td ng-class="tamer.stats.nature.empathic">Empática</td>
+							</tr>
+							<tr>
+								<td ng-class="tamer.stats.nature.logic">Lógica</td>
+								<td ng-class="tamer.stats.nature.kinetic">Motriz</td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
 			</div>
 		</div>

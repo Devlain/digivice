@@ -88,6 +88,21 @@ a:hover {
   opacity: 0;
 }
 
+table {
+	border-radius: 4px;
+	border-collapse: unset;
+}
+
 td {
 	background-color: #fff;
+}
+
+td.bad {
+	background-color: red;
+	color: white;
+}
+
+td.good {
+	background-color: green;
+	color: white;
 }
