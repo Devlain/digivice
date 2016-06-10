@@ -5,6 +5,12 @@
 
 	function MainCtrl ($scope) {
 		
+		$scope.isTrue = true;
+
+		$scope.changeTruth = function() {
+			$scope.isTrue = !$scope.isTrue;
+		}
+
 	}
 	
 })();

@@ -3,21 +3,26 @@
 <h1>Party</h1>
 
 <div ng-repeat="tamer in tamers" class="col-xs-12 col-sm-4 col-md-4 col-lg-3">
-	<a ng-href="http://devlain.github.io/digivice/#/{{$index}}">
-		<div class="well text-center fixed-well center-block">
-			<div class="text-center">
-				<div class="fieldtag" ng-class="tamer.colorclass">
+	
+	<div class="well text-center fixed-well center-block">
+		<div class="text-center">
+			<!--<a ng-href="http://devlain.github.io/digivice/#/{{$index}}">-->
+				<div class="fieldtag" ng-class="tamer.colorclass" ng-click="">
+					<button ng-click="changeTruth()">sum change</button>
 					<span class="tamer-name">{{tamer.name}}</span>
 				</div>
-			</div>
-			<p></p>
-			<img class="img-circle img-responsive digimon-portait center-block" ng-src="{{tamer.digimon.img}}">
-			<p></p>
-			<ul class="data-group list-group text-center">
-				<li class="list-group-item" ng-class="tamer.colorclass">{{tamer.digimon.name}}</li>
-				<li class="list-group-item">{{tamer.digimon.specie}}</li>
-			</ul>
+			<!--</a>-->
+			<div ng-class="check-element animate-show" ng-show="isTrue">{{isTrue}}</div>
+			<div ng-class="check-element animate-show" ng-hide="isTrue">{{isTrue}}</div>
+			<div ng-class="check-element animate-show" ng-show="isTrue">{{isTrue}}</div>
 		</div>
-	</a>
+		<p></p>
+		<img class="img-circle img-responsive digimon-portait center-block" ng-src="{{tamer.digimon.img}}">
+		<p></p>
+		<ul class="data-group list-group text-center">
+			<li class="list-group-item" ng-class="tamer.colorclass">{{tamer.digimon.name}}</li>
+			<li class="list-group-item">{{tamer.digimon.specie}}</li>
+		</ul>
+	</div>
 
 </div>
