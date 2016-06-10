@@ -1,6 +1,6 @@
 (function() {
 
-	angular.module('Digivice', ['ngRoute', 'ngResource']);
+	angular.module('Digivice', ['ngRoute', 'ngResource', 'ngAnimate']);
 
 })();
 
