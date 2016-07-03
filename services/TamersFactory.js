@@ -137,10 +137,10 @@
 							},
 							digimon: {
 								name: '',
-								specie: '',
-								img: "",
-								attr: '',
-								attrIcon: ''
+								specie: 'Pitchmon',
+								img: "assets/img/Pitchmon.jpg",
+								attr: 'data',
+								attrIcon: 'fa-floppy-o'
 							}
 						}
 					];
