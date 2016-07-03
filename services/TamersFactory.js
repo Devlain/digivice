@@ -42,9 +42,9 @@
 								}
 							},
 							digimon: {
-								name: 'Patamon',
-								specie: 'Patamon',
-								img: "assets/img/patamon.jpg",
+								name: '',
+								specie: 'Botamon',
+								img: "assets/img/Botamon.jpg",
 								attr: 'data',
 								attrIcon: 'fa-floppy-o'
 							}
@@ -89,11 +89,11 @@
 								}
 							},
 							digimon: {
-								name: 'Labramon',
-								specie: 'Labramon',
-								img: "assets/img/labramon.png",
-								attr: 'vaccine',
-								attrIcon: 'fa-shield'
+								name: '',
+								specie: 'Kuramon',
+								img: "assets/img/Kuramon.jpg",
+								attr: 'virus',
+								attrIcon: 'fa-bug'
 							}
 						},
 						{
@@ -136,11 +136,11 @@
 								}
 							},
 							digimon: {
-								name: 'Hagurumon',
-								specie: 'Hagurumon',
-								img: "assets/img/hagurumon.png",
-								attr: 'virus',
-								attrIcon: 'fa-bug'
+								name: '',
+								specie: '',
+								img: "",
+								attr: '',
+								attrIcon: ''
 							}
 						}
 					];
