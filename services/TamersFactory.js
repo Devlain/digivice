@@ -4,7 +4,7 @@
 	.factory('TamersFactory', ['$http', function($http) {
 		var data = [
 						{
-							name: 'Pancho',
+							name: 'Bright',
 							img: '',
 							colorclass: 'font-bg-pancho',
 							statsToggle: false,
@@ -51,15 +51,15 @@
 						},
 						{
 
-							name: 'Paula',
+							name: 'Alana',
 							img: '',
 							colorclass: 'font-bg-paula',
 							statsToggle: false,
 							stats: {
 								nature: {
-									expressive: '',
-									empathic: 'good',
-									logic: 'bad',
+									expressive: 'bad',
+									empathic: '',
+									logic: 'good',
 									kinetic: '',
 								},
 								skills: {
@@ -98,7 +98,7 @@
 						},
 						{
 
-							name: 'Yuyu',
+							name: 'Alexei',
 							img: '',
 							colorclass: 'font-bg-yuyu',
 							statsToggle: false,
